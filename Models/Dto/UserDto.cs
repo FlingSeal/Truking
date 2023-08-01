@@ -1,0 +1,13 @@
+﻿namespace Truking.Models.Dto
+{
+    public class UserDto
+    {
+        public Guid Id { get; set; }
+        public string? Name { get; set; }
+        public string? Surename { get; set; }
+        public string? Patronymic { get; set; }
+        public string Email { get; set; } = null!;
+        public string Password { get; set; } = null!;
+        public long Phone { get; set; }
+    }
+}
