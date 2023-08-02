@@ -10,6 +10,7 @@
 
         public DriverStatus? DriverStatus { get; set; }
         public User? User { get; set; }
+        public List<Car>? Cars { get; set; }
 
     }
 }
