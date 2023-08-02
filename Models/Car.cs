@@ -13,5 +13,6 @@
         public string? Description { get; set; }
 
         public Driver? Driver { get; set; }
+        public CarModel? CarModel { get; set; }
     }
 }

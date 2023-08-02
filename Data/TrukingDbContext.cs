@@ -11,6 +11,7 @@ namespace Truking.Data
         public DbSet<Role> Roles { get; set; }
         public DbSet<DriverStatus> DriverStatuses { get; set; }
         public DbSet<Car> Cars { get; set; }
+        public DbSet<CarModel> CarModels { get; set; }
         public TrukingDbContext(DbContextOptions options):base(options) 
         {
             Database.EnsureCreated();
