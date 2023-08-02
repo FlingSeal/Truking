@@ -14,5 +14,6 @@
 
         public Driver? Driver { get; set; }
         public CarModel? CarModel { get; set; }
+        public Category? Category { get; set; }
     }
 }
