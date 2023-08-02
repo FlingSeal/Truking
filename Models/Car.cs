@@ -10,6 +10,7 @@
         public int CategoryID { get; set; }
         public string? Color { get; set; }
         public int Tonnage { get; set; }
+        public string? Description { get; set; }
 
         public Driver? Driver { get; set; }
     }
