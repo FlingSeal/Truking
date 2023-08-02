@@ -9,9 +9,9 @@ namespace Truking.Data.EntityConfig
         public void Configure(EntityTypeBuilder<User> builder)
         {
 
-            builder.HasOne(u => u.Driver)
-                .WithOne(p => p.User)
-                .HasForeignKey<Driver>(p => p.UserId)
+            builder.HasOne(d => d.Driver)
+                .WithOne(u =>u.User)
+                .HasForeignKey<Driver>(d => d.UserId)
                 .OnDelete(DeleteBehavior.Cascade); 
         }
     }
