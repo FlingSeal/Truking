@@ -8,6 +8,7 @@ namespace Truking.Data
     {
         public DbSet<User>? Users { get; set; }
         public DbSet<Driver> Drivers { get; set; }
+        public DbSet<Role> Roles { get; set; }
         public TrukingDbContext(DbContextOptions options):base(options) 
         {
             Database.EnsureCreated();
